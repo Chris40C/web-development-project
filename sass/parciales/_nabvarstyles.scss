@@ -2,17 +2,18 @@
 $hovercolorvar: rgba(17, 185, 143, 0.781);
 
 .logo-vector{
-    height: 100px;
+    height: 120px;
     width: auto;
 }
 .nav-link{
     margin-left: 50px !important;
     font-family: Barlow !important;
+    font-weight: 300px !important;
     color: white !important;
+    height: 100%;
 
     &:hover{
         color: $hovercolorvar !important;
-        background-color: aliceblue;
         border-radius: 6px;
     }
 }
@@ -31,4 +32,10 @@ $hovercolorvar: rgba(17, 185, 143, 0.781);
 
 .navbar-nav{
     height: 100%;
+}
+
+.fa-solid {
+    font-size: 20px !important;
+    font-weight: 400px;
+    
 }
