@@ -1,0 +1,45 @@
+/* ESTILOS PARA INDEX.HTML */
+
+$bgboxcolor:rgba(13, 13, 17, 0.507);
+$letterboxcolor: rgb(255, 255, 255);
+
+/* Aplicando MIXIN DE SASS 2 */
+
+@mixin halfwidthimage {
+    width: 50%;
+}
+
+@mixin flexbox( $awrap, $direction, $alignitems)  {
+    display: flex;
+    flex-wrap: $awrap;
+    flex-direction: $direction;
+    align-items: $alignitems;
+}
+
+#imagen_caja2 ,#imagen_caja4{
+    @include halfwidthimage();
+}
+
+.cajawidth100 , .contenedortext{
+    padding: 40px 20px;
+    line-height: 30px;
+}
+
+.cajasconimg{
+    background-color: $bgboxcolor;
+    display: flex;
+    color: $letterboxcolor;
+    text-align: center;
+    align-items: center;
+
+    .caja1{
+        flex-direction: row-reverse;
+    }
+}
+
+.caja2{
+    background-color: $bgboxcolor;
+    color: $letterboxcolor;
+    text-align: center;
+    @include flexbox(nowrap, row, center)
+}

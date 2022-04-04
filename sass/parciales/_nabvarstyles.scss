@@ -1,0 +1,34 @@
+
+$hovercolorvar: rgba(17, 185, 143, 0.781);
+
+.logo-vector{
+    height: 100px;
+    width: auto;
+}
+.nav-link{
+    margin-left: 50px !important;
+    font-family: Barlow !important;
+    color: white !important;
+
+    &:hover{
+        color: $hovercolorvar !important;
+        background-color: aliceblue;
+        border-radius: 6px;
+    }
+}
+
+.active{
+    color: $hovercolorvar !important;
+}
+
+.bg-dark {
+    background-color: rgba(0, 0, 0, 0.616)!important;
+}
+
+#navbarNavAltMarkup{
+    justify-content: flex-end;
+}
+
+.navbar-nav{
+    height: 100%;
+}

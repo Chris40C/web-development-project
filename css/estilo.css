@@ -1,0 +1,272 @@
+/* texto de prueba */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  margin: auto;
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px;
+  background-color: #ffffffa4;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23000000' fill-opacity='0.05' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }
+
+.logo-vector {
+  height: 100px;
+  width: auto; }
+
+.nav-link {
+  margin-left: 50px !important;
+  font-family: Barlow !important;
+  color: white !important; }
+  .nav-link:hover {
+    color: rgba(17, 185, 143, 0.781) !important;
+    background-color: aliceblue;
+    border-radius: 6px; }
+
+.active {
+  color: rgba(17, 185, 143, 0.781) !important; }
+
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0.616) !important; }
+
+#navbarNavAltMarkup {
+  justify-content: flex-end; }
+
+.navbar-nav {
+  height: 100%; }
+
+/* ESTILOS PARA INDEX.HTML */
+/* Aplicando MIXIN DE SASS 2 */
+#imagen_caja2, #imagen_caja4 {
+  width: 50%; }
+
+.cajawidth100, .contenedortext {
+  padding: 40px 20px;
+  line-height: 30px; }
+
+.cajasconimg {
+  background-color: rgba(13, 13, 17, 0.507);
+  display: flex;
+  color: white;
+  text-align: center;
+  align-items: center; }
+  .cajasconimg .caja1 {
+    flex-direction: row-reverse; }
+
+.caja2 {
+  background-color: rgba(13, 13, 17, 0.507);
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center; }
+
+/* ESTILOS PARA CONTACTOS.HTML */
+#contactanos_text {
+  padding: 80px 80px;
+  width: 100%;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  background: black url(../imagenes/backgroundbody3.png);
+  background-size: 100%; }
+
+.contenedor_contactos {
+  display: flex;
+  height: 400px;
+  background-color: #ffffff; }
+
+.form_contact {
+  width: 50%;
+  padding: 2rem; }
+
+.contact {
+  padding: 0.8rem;
+  overflow: hidden;
+  color: grey; }
+
+.contact label, .contact input, .contact textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 8px; }
+
+.contact label {
+  font-weight: 700; }
+
+.contact textarea, .contact input:not([type='submit']) {
+  border: none;
+  border-bottom: 2px solid #864903;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white; }
+
+input[type='submit'] {
+  color: #ffffff;
+  padding: 5px;
+  border: none;
+  background-color: black; }
+
+.contenedor_redes {
+  background-color: rgba(39, 39, 39, 0.897);
+  width: 50%;
+  height: 430px;
+  padding: auto; }
+
+.lista_redes {
+  padding-left: 0 30px;
+  color: white;
+  height: 100%;
+  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center; }
+
+.enlace {
+  text-decoration: none;
+  color: #169b43;
+  display: flex;
+  gap: 20px; }
+
+/* ESTILOS PARA PAGINA RUTINAS.HTML */
+.container {
+  width: 100%; }
+
+.card-text {
+  font-size: 15px; }
+
+.boton {
+  background-color: black;
+  border: 0; }
+
+.boton:hover {
+  background-color: white;
+  color: black; }
+
+.card-img-top {
+  height: 180px; }
+
+.card-body {
+  text-align: center;
+  background-color: #e4e4e4; }
+
+/* ESTILOS PARA PAGINA GUIAS.HMTL */
+.caja-guias {
+  background: #e30909;
+  background: linear-gradient(90deg, #e30909 1%, #080e4d 100%);
+  color: #ffffff; }
+
+.available {
+  background-color: rgba(0, 128, 0, 0.267); }
+
+.notavailable {
+  background-color: rgba(128, 30, 0, 0.267); }
+
+/* ESTILOS PARA ABOUTTHESPORT.HTML */
+.content__sport {
+  margin: 8rem; }
+
+.preguntas-frecuentes {
+  margin: 3rem; }
+
+.accordion-button {
+  background-color: black;
+  color: #fff; }
+
+.titulo-preguntas {
+  padding: 30px;
+  text-align: center; }
+
+.accordion-button:not(.collapsed) {
+  color: #000000;
+  background-color: #ffffff; }
+
+/* FOOTER */
+.footer_content {
+  height: 500px; }
+
+.container {
+  padding: 40px 20px; }
+
+.fa-brands, .fa-solid {
+  font-size: 35px; }
+
+@media screen and (max-width: 1024px) {
+  body {
+    width: 100%; }
+  .nav_list {
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 450px; }
+  .nav_item {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 5%; }
+  #imagen_caja2, #imagen_caja4 {
+    width: 100%;
+    height: auto;
+    padding: 10px; }
+  .caja2, .caja1 {
+    flex-direction: column-reverse; }
+  .redes {
+    flex-direction: column;
+    align-items: flex-start; }
+  .content__sport {
+    margin: 2rem; } }
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: white; }
+  .nav {
+    height: 80px; }
+  .nav_content {
+    padding: 10px;
+    display: flex;
+    align-items: center; }
+  .nav_list {
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    transition: transform 0.5s;
+    z-index: 100; }
+  .open_sidebar {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.911); }
+  #sidebar:target {
+    transform: translate(0); }
+  .close_sidebar {
+    display: block; }
+  .contenedor {
+    text-align: center; }
+  #contactanos_text {
+    padding: 10px;
+    font-size: 15px; }
+  .contenedor_contactos {
+    height: auto;
+    flex-direction: column; }
+  .lista_redes {
+    padding-bottom: 20px; }
+  .form_contact {
+    width: 100%; }
+  .contenedor_redes {
+    width: 100%; }
+  .copiright {
+    padding: 10px; }
+  .textarea {
+    height: 40px;
+    align-items: flex-end; }
+  .redes {
+    align-items: center; } }

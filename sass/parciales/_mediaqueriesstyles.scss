@@ -1,0 +1,119 @@
+@media screen and (max-width: 1024px){
+
+    body{
+        width: 100%;
+    }
+    .nav_list{
+        justify-content:space-around;
+        align-items: flex-end;
+        width: 450px;
+    }
+
+    .nav_item{
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        border-radius: 5%;
+    }
+
+    #imagen_caja2 ,#imagen_caja4{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .caja2 , .caja1{
+        flex-direction: column-reverse;
+    }
+    .redes{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .content__sport{
+        margin: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    body{
+        background-color: white;
+    }
+
+    .nav{
+        height: 80px;
+    }
+
+    .nav_content{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav_list{
+        background-color: white;
+        width: 80%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transform: translateX(-100%);
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 1rem;
+        padding: 1rem;
+        transition: transform 0.5s;
+        z-index: 100;
+    }
+
+    .open_sidebar{
+        
+        display: inline-block;
+        background-color: rgba(255, 255, 255, 0.911);
+    }
+
+    #sidebar:target{
+        transform: translate(0);
+    }
+
+    .close_sidebar{
+        display: block;
+    }
+
+    .contenedor{
+        text-align: center;
+    }
+
+    #contactanos_text{
+        padding: 10px;
+        font-size: 15px;
+    }
+    .contenedor_contactos{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .lista_redes{
+        padding-bottom: 20px;
+    }
+    .form_contact{
+        width: 100%;
+    }
+    .contenedor_redes{
+        width: 100%;
+    }
+
+    .copiright{
+        padding: 10px;
+    }
+
+    .textarea{
+        height: 40px;
+        align-items: flex-end;
+    }
+
+    .redes{
+        align-items: center;
+    }
+}

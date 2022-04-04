@@ -1,0 +1,28 @@
+/* ESTILOS PARA PAGINA RUTINAS.HTML */
+
+.container{
+    width: 100%;
+}
+
+.card-text{
+    font-size: 15px;
+}
+
+.boton{
+    background-color: rgb(0, 0, 0);
+    border: 0;
+}
+
+.boton:hover{
+    background-color: white;
+    color: black;
+}
+
+.card-img-top{
+    height: 180px;
+}
+
+.card-body{
+    text-align: center;
+    background-color: rgb(228, 228, 228);
+}

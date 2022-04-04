@@ -1,0 +1,25 @@
+/* ESTILOS PARA ABOUTTHESPORT.HTML */
+
+.content__sport{
+    margin: 8rem;
+}
+
+
+.preguntas-frecuentes{
+    margin: 3rem;
+}
+
+.accordion-button{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+.titulo-preguntas{
+    padding: 30px;
+    text-align: center;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000000;
+    background-color: #ffffff;
+}
