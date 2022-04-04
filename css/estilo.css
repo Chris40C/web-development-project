@@ -37,7 +37,7 @@ body {
 .navbar-nav {
   height: 100%; }
 
-.fa-solid {
+.fa-magnifying-glass {
   font-size: 20px !important;
   font-weight: 400px; }
 
@@ -146,10 +146,9 @@ input[type='submit'] {
 .boton {
   background-color: black;
   border: 0; }
-
-.boton:hover {
-  background-color: white;
-  color: black; }
+  .boton:hover {
+    background-color: white;
+    color: black; }
 
 .card-img-top {
   height: 180px; }
@@ -170,9 +169,19 @@ input[type='submit'] {
 .notavailable {
   background-color: rgba(128, 30, 0, 0.267); }
 
+.boton {
+  background-color: black;
+  border: 0; }
+  .boton:hover {
+    background-color: white;
+    color: black; }
+
 /* ESTILOS PARA ABOUTTHESPORT.HTML */
 .content__sport {
-  margin: 8rem; }
+  margin: 8rem;
+  background-image: url(../../imagenes/backgroundpexels.jpg);
+  background-size: 100% auto;
+  color: #fff; }
 
 .preguntas-frecuentes {
   margin: 3rem; }
@@ -187,7 +196,15 @@ input[type='submit'] {
 
 .accordion-button:not(.collapsed) {
   color: #000000;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  font-size: 20px; }
+
+div h1 {
+  color: #009b8b;
+  font-weight: 900; }
+
+.accordion-body {
+  color: #000000; }
 
 /* FOOTER */
 .footer_content {

@@ -11,3 +11,13 @@
 .notavailable{
     background-color: rgba(128, 30, 0, 0.267);
 }
+
+.boton{
+    background-color: black;
+    border: 0;
+
+    &:hover{
+        background-color: white;
+        color: black;
+    }
+}

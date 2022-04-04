@@ -2,6 +2,10 @@
 
 .content__sport{
     margin: 8rem;
+
+    background-image: url(../../imagenes/backgroundpexels.jpg);
+    background-size: 100% auto;
+    color: #fff;
 }
 
 
@@ -22,4 +26,14 @@
 .accordion-button:not(.collapsed) {
     color: #000000;
     background-color: #ffffff;
+    font-size: 20px;
+}
+
+div h1{
+    color: rgb(0, 155, 139);
+    font-weight: 900;
+}
+
+.accordion-body{
+    color: #000000;
 }
