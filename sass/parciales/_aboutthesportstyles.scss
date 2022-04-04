@@ -1,12 +1,14 @@
 /* ESTILOS PARA ABOUTTHESPORT.HTML */
 
-.content__sport{
-    margin: 8rem;
-
+.bgresponsive{  
     background-image: url(../../imagenes/backgroundpexels.jpg);
-    background-size: 100% auto;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: #fff;
 }
+
 
 
 .preguntas-frecuentes{
@@ -25,7 +27,7 @@
 
 .accordion-button:not(.collapsed) {
     color: #000000;
-    background-color: #ffffff;
+    background-color: #ffffff54;
     font-size: 20px;
 }
 
@@ -36,4 +38,9 @@ div h1{
 
 .accordion-body{
     color: #000000;
+}
+
+.content__sport{
+    margin: 0 8rem;
+    background-color: rgba(255, 255, 255, 0.26);
 }
